@@ -1,0 +1,37 @@
+body {
+    background-color: gray;
+}
+
+.profile-avatar {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-name {
+    font-size: 125%;
+}
+
+.profile-icons a {
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+}
+
+#github {
+    color: black;
+}
+
+#linkedin {
+    color: #007bb6;
+}
+
+#email {
+    color: gold;
+}
