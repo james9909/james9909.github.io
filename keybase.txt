@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/james9909
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://james-wang.com
+  * I am james9909 (https://keybase.io/james9909) on keybase.
+  * I have a public key with fingerprint 4F8E 5EE8 35EF 9D6F 1746  D453 5B80 C0B3 F263 CD5B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+	"key": {
+	  "eldest_kid": "01203145c3c1d4f7a9b62ea042afbce424fe4fd45c904914f0a6c509b534332d3f420a",
+	  "fingerprint": "4f8e5ee835ef9d6f1746d4535b80c0b3f263cd5b",
+	  "host": "keybase.io",
+	  "key_id": "5b80c0b3f263cd5b",
+	  "kid": "01013ae77beac84178174bca2af5b6577bd5a204b3f96f98d2cb76027730412349fc0a",
+	  "uid": "54cbad9b4541ed52124ba4c0e6e1b319",
+	  "username": "james9909"
+	},
+	"merkle_root": {
+	  "ctime": 1512619194,
+	  "hash_meta": "5ae97e0f9018a005bfd1d0234ff801a1a8c3acbe6c66fd200313a6d0582f9166",
+	  "seqno": 1786821
+	},
+	"revoke": {
+	  "sig_ids": [
+		"bd405a8c56d67c0870bfe072abf5ded80b787bba140c5512a3815786cc16ee8d0f"
+	  ]
+	},
+	"service": {
+	  "hostname": "james-wang.com",
+	  "protocol": "https:"
+	},
+	"type": "web_service_binding",
+	"version": 1
+  },
+  "ctime": 1512619218,
+  "expire_in": 157680000,
+  "prev": "09a8afe5b0c28faa3d59a18d5010c10bc69837933cff8353d01958054f88055d",
+  "seqno": 30,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtU3tQVFUchlWYkQyU8kX56I5/iJKec++5r/XdiGVqiGCOoGzndWFZ2Yu7C6QM
+DuJjNHJ8jtNDpQgL85HpOGaiYYyT06pNNmOuiaDIKFrJaAUoaudSTjXT/eOeued+
+v+/7zvf7nY1P94pyRWeX1x+6S89mR4fbSFTWqLoLpRKx2VLJXSr5eM/CFzMeDHl8
+Xia5JQBloECkUoVChiwdm0STOQZIxhahHMnI4shiAmACZEJkAaxRFZhEVZCiyEyx
+kAywlCJZXn8uDxQGvP6QoEWWwVXODUXllsk0C+pIEySKSgxAAVEsWVMoU4kozLOD
+ToUwR3CQj/XaYk98eHrs/Q/+iW8AFcx1nXBMDQR1Q0gQioVtlWiq2GcqlgESpaZm
+mQaTKdE1IOu6AhCUFWRatMd30V86iBLMTIJUBDlTZSgjghEFXOOQKNB0gEEe8OMC
+LtD5YgmaJjClshSpgAd8i7knYNshJ10a8joYqEJZgyY0kTghDuZ5CngIO0KYmzoH
+lgmggQFQicUgA8KPZRkAYogNqmBKuEY1zWIyEM1RsMaAasiWCTVNGAnyJX5bKOiG
+ZshQOAjwYtvHHfGgN1fkFpTc2RJhqH4ZUAWfqjFNp8DQAbE40GVMLJVxZgCiGzoh
+GCJAVWEXKwZUBSmlUBOtY8CSFpU5coFiL+2hd1r17wheLMH+3LHULhCuCgN2yKb2
+YvEvLxQqDLqdbEJLCx1wCSeev2k8xOtnYlRERTEPBL22X5xEIP8bmwyNFIm/WegN
+cI/XQai6ZgDxODq82Om/iQ1scZUAKhsWxgpTTQwNporBoBAQqpmGopuKQkWwiqow
+AE3VAKoYTPFW2T85KoI0hHMFp0jPj0NFAS6Vxa1zPd87KtoVFRvjci5RVFyffk9u
+1qpIwuOFEyOb82K7wtlPmZnN8zpxR0ZqzbFP9509+MP2QcQf8+rV/eDr26/d/ZhP
+a0lHG/CE67faKi+vLkrouL/7dmf/6X+4vkKwhM6On/vG3n2Dzk9pLsq+lyPVDx8Z
+X7Gxbf+6HTl9Nh2f1DBn28Nzu8esnr2mnK7w1J0sHpncdq36pG48u6V6XPOM1lss
+vvbI6Snks8qpt+oirxzdGs74qMmTdnTBmYz6DXvC98+53RUFay9GmrYNKn8w8fCA
+e8nuDzafKFw2Oz75xqGuERWFKT9e2HVpfPTMLz8/QNKG1U46PWtBqlmb33oFZ/lf
+Ope08bddp5eU5F+6mPN+34ya2NHDj5Z1/xpbta008+AhO6+7YNmj9radk3e6Zi7c
+UTMYXZ7Q9Hrx9/fXN5zQoxM6Rh/z982Z32hfr7q2/rtTy5/5Ke+ths05s1pnpd7s
+8HWOyt+0MrF03NUHa65MSTrbXnt7UXIkNWF6pntgVf/nencFu+/sRsebs+LYh0NP
+jErMn5c4NPPRku5NjcvH92oNH+mcv30llQaM+ITG1CXu2/ny1IflcxsHRNpb9w4c
+4ruSPmTVOzOafzk5p6XfzG+TTpnvVX3hmjbsRnitD7SDcFbU2xcq0jf8/G5DOh3T
+Guhz8JvDnQcqk9D2FXv8nuqp7S/siWxNY76uxpuRcPX130t3nWmZ3FJZOfjR4x1b
+HqTVjMloOn8n7swC+Cc=
+=fCNR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/james9909
+
+==================================================================
