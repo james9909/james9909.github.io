@@ -1,192 +1,25 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+---
+title: Home
+layout: default
+---
 
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css" media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<h1>Name</h1>
+<p>James Wang - Student & Software Engineer</p>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <title>James Wang</title>
-    </head>
-    <body>
-        <div class="row">
-            <div class="col s12 m3 sidebar">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="profile-avatar">
-                            <img class="responsive-img circle" src="https://avatars1.githubusercontent.com/u/9091144?v=3&u=5c15f1072ab1bdc046865768bbd41f4c11f37156&s=400">
-                        </div>
-                        <div class="center">
-                            <div class="profile-name">James Wang</div>
-                            <div class="profile-icons">
-                                <a id="email" target="_blank" href="mailto:jameswang9909@hotmailcom"><i class="fa fa-envelope fa-2x"></i></a>
-                                <a id="github" target="_blank" href="https://github.com/james9909"><i class="fa fa-github fa-2x"></i></a>
-                                <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/james-wang"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                            </div>
-                            <!-- <div class="row"> -->
-                            <!--     <a href="/resume.pdf" class="btn disabled waves-effect waves-light" type="submit">Resume -->
-                            <!--         <i class="material-icons right">send</i> -->
-                            <!--     </a> -->
-                            <!-- </div> -->
-                        </div>
+<h1>Description</h1>
+<p>I'm a senior CS + Stat major at UIUC with an interest in security and distributed systems.</p>
+<p>In high school I participated in CTF events under the team name <a href="https://github.com/in-s-ane">in/s/ane</a>.</p>
 
-                        <div class="collection">
-                            <a href="#about" class="collection-item">About</a>
-                            <a href="#projects" class="collection-item">Projects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m8 offset-m3">
-                <br>
-                <div id="about" class="section scrollspy">
-                    <div class="card">
-                        <div class="card-content">
-                            <span class="card-title">About</span>
-                            Hi! My name is James, and I'm a sophomore at the University of Illinois at Urbana-Champaign. I'm interested in cybersecurity and back-end engineering. I'm currently interning at <a href="https://www.trailofbits.com/">Trail of Bits</a>.
-                            <br><br>
-                            During my time in high school, I participated on <a href="http://stuypulse.com">StuyPulse</a>, Stuyvesant's <i>FIRST</i> robotics team.
-                            I also participated in several <a href="https://ctftime.org/ctf-wtf/">Capture the Flag</a> (CTF) competitions under the team name <a href="https://github.com/in-s-ane">in/s/ane</a>.
-                            <br><br>
-                            Check out some of my projects down below!
-                        </div>
-                    </div>
-                </div>
-                <div id="projects" class="section scrollspy">
-                    <div class="cards-container">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">OpenCTF</span>
-                                <p>
-                                A powerful, extensible, easy-to-use platform for hosting Capture the Flag competitions.
-                                Features include a quick installation process, full admin panel, and an online code judge.
-                                Used to host EasyCTF 2017, which featured over 6000 users. Currently undergoing a rewrite.
-                                </p>
+<h1>Projects</h1>
+<ul>
+{%- for project in site.data.projects %}
+<li><a href="https://github.com/{{ project.github }}">{{ project.name }}</a>: {{- project.description }}</li>
+{%- endfor %}
+</ul>
 
-                                <div class="section">
-                                    <div class="chip">Python</div>
-                                    <div class="chip">MySQL</div>
-                                    <div class="chip">Docker</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/EasyCTF/OpenCTF">Source</a>
-                                <a target="_blank" href="https://github.com/EasyCTF/openctf-server/tree/easyctf-2017">Original</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">revm</span>
-                                <p>An implementation of the <a href="https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial">Ethereum Virtual Machine (EVM)</a>. Based on the <a href="https://ethereum.github.io/yellowpaper/paper.pdf">yellow paper</a>.</p>
-
-                                <div class="section">
-                                    <div class="chip">Rust</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/james9909/revm">Source</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">lol-chime</span>
-                                <p>
-                                A terminal utility for League of Legends that notifies users when their friends are finished with their game with an audible ping.
-                                Currently has over 10,000 downloads on NPM.
-                                </p>
-                                <div class="section">
-                                    <div class="chip">Node.js</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/max-su/lol-chime">Source</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">stackanswers.vim</span>
-                                <p>
-                                Vim plugin that allows users to query StackOverflow and view a list of answers
-                                in an easy-to-read format.
-                                </p>
-
-                                <div class="section">
-                                    <div class="chip">Python</div>
-                                    <div class="chip">Vimscript</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/james9909/stackanswers.vim">Source</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">Graphics Engine</span>
-                                <p>
-                                A graphics engine written from scratch for the Computer Graphics course at Stuyvesant.
-                                It supports drawing and saving basic 2d and 3d shapes, animated gifs, and basic lighting.
-                                </p>
-
-                                <div class="section">
-                                    <div class="chip">Go</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/james9909/graphics-engine">Source</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">GitHub Stupidity</span>
-                                <p>
-                                A web application for calculating the stupidity of a GitHub repository, based on <a href="http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html">this</a> article. Additional features include, viewing the stupidity of a language, calculated from the average stupidity of the top 20 repositories in that language. Any statistics generated from this should not be taken seriously.
-                                </p>
-
-                                <div class="section">
-                                    <div class="chip">Node.js</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/james9909/github-stupidity">Source</a>
-                                <a target="_blank" href="https://github-stupidity.herokuapp.com/">Try it out!</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">PracticeCTF</span>
-                                <p>
-                                A collection of writeups from Capture the Flag cybersecurity competitions I've participated in for practice.
-                                </p>
-                                <div class="section">
-                                    <div class="chip">Python</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/james9909/PracticeCTF">Source</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">HomeworkServer</span>
-                                <p>
-                                The process of submitting my CS homework at Stuyvesant was tedious and error prone, so I wrote a utility for interacting with it through the command line.
-                                </p>
-                                <div class="section">
-                                    <div class="chip">Python</div>
-                                </div>
-                            </div>
-                            <div class="card-action">
-                                <a target="_blank" href="https://github.com/james9909/HomeworkServer">Source</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+<h1>See Also</h1>
+<p>
+<a target="_blank" href="mailto:jwang9909@gmail.com">Email(1)</a>,
+<a href="https://github.com/james9909">Github(1)</a>,
+<a href="https://linkedin.com/in/james-wang">Linkedin(1)</a>
+</p>

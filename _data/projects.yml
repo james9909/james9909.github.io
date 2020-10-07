@@ -1,0 +1,30 @@
+- name: WarPlus
+  github: james9909/WarPlus
+  description: A highly configurable PVP arena plugin for Spigot.
+- name: Queue@Illinois
+  github: illinois/queue
+  description: A campus-wide system for facilitating office hours.
+- name: revm
+  github: james9909/revm
+  description: An implementation of the <a href="https://eth.wiki/concepts/evm/evm">Ethereum Virtual Machine</a>.
+- name: OpenCTF
+  github: easyctf/openctf
+  description: A powerful and extensible platform for hosting Capture the Flag competitions. Features an online code judge and shell server. Used to host EasyCTF 4 and 5 and over 6000 players each.
+- name: Graphics Engine
+  github: james9909/graphics-engine
+  description: A graphics engine written from scratch that supports rendering 2d and 3d animations with basic lighting.
+- name: Github Stupidity
+  github: james9909/github-stupidity
+  description: A web application for calculating the stupidity of a GitHub repository based on <a href="https://ericgreer.info/post/judging-the-stupidity-of-github-projects">this blog post</a>. <a href="https://github-stupidity.herokuapp.com/">Demo</a>
+- name: lol-chime
+  github: max-su/lol-chime
+  description: A terminal utility for League of Legends that notifies users when their friends are finished with their game. Currently has over 10,000 downloads on NPM.
+- name: CTF Practice
+  github: james9909/PracticeCTF
+  description: A collection of writeups from Capture the Flag cybersecurity competitions I've participated in for practice.
+- name: stackanswers.vim
+  github: james9909/stackanswers.vim
+  description: A Vim plugin that lets users query StackOverflow and view a list of answers in an easy-to-read format.
+- name: HomeworkServer
+  github: james9909/HomeworkServer
+  description: The process of submitting my CS homework at Stuyvesant was tedious and error prone, so I wrote a utility for interacting with it through the command line.

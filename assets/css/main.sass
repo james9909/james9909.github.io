@@ -1,0 +1,66 @@
+---
+---
+
+@import "colors"
+@import "spacing"
+
+body
+  width: $term_width
+  background-color: $gray
+  color: $white
+  margin: 0 auto
+
+*
+  font-family: Consolas, monaco, monospace
+  font-weight: 300
+  font-size: large
+
+a
+  color: $red
+
+  &:hover
+    color: $darkred
+
+h1, h2, h3
+  display: unset
+  font-size: unset
+  margin-block-start: unset
+  margin-block-end: unset
+  margin-inline-start: unset
+  margin-inline-end: unset
+  font-weight: unset
+  font-variant: small-caps
+  color: $green
+
+p
+  margin-top: 0
+  padding-left: $p_indent
+
+.wideline
+  display: flex
+  justify-content: space-between
+
+  &.begin
+    padding-top: $begin_padding_top
+    padding-bottom: $begin_padding_bottom
+
+  &.end
+    padding-top: $end_padding_top
+    padding-bottom: $end_padding_bottom
+
+  span
+    flex: 0 1 auto
+
+ul
+  list-style: none
+  padding-left: 0
+  margin-top: 0
+
+li
+  &::before
+    content: "*"
+    float: left
+    margin-left: $l_before_indent
+
+  padding-left: $list_indent
+  padding-bottom: $list_padding_bottom
