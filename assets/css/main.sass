@@ -6,8 +6,7 @@
 
 body
   width: $term_width
-  background-color: $gray
-  color: $white
+  color: black
   margin: 0 auto
 
 *
@@ -16,24 +15,24 @@ body
   font-size: large
 
 a
-  color: $red
+  color: blue
 
-  &:hover
-    color: $darkred
+  &:visited, &:hover, &:active
+    color: blue
 
 h1, h2, h3
   display: unset
-  font-size: unset
+  font-size: 1.25em
   margin-block-start: unset
   margin-block-end: unset
   margin-inline-start: unset
   margin-inline-end: unset
-  font-weight: unset
+  font-weight: bold
   font-variant: small-caps
-  color: $green
+  color: $darkred
 
 p
-  margin-top: 0
+  margin-top: 1em
   padding-left: $p_indent
 
 .wideline
@@ -54,7 +53,7 @@ p
 ul
   list-style: none
   padding-left: 0
-  margin-top: 0
+  margin-top: 1em
 
 li
   &::before
