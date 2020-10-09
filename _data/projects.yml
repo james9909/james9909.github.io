@@ -9,7 +9,7 @@
   description: An implementation of the <a href="https://eth.wiki/concepts/evm/evm">Ethereum Virtual Machine</a>.
 - name: OpenCTF
   github: easyctf/openctf
-  description: A powerful and extensible platform for hosting Capture the Flag competitions. Features an online code judge and shell server. Used to host EasyCTF 4 and 5 and over 6000 players each.
+  description: A powerful and extensible platform for hosting Capture the Flag competitions. Features an randomized challenges, a code judge, and shell server. Used to host EasyCTF 4 and 5 and over 6000 players each.
 - name: Graphics Engine
   github: james9909/graphics-engine
   description: A graphics engine written from scratch that supports rendering 2d and 3d animations with basic lighting.
